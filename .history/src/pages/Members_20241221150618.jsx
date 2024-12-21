@@ -1,0 +1,28 @@
+const About = () => {
+    return (
+      <div className="flex flex-col h-96 bg-red-900 items-center mt-10">
+        <h3 className="text-center font-semibold text-xl">ABOUT US</h3>
+       
+          <h1 className="text-center font-bold text-2xl  mt-8">
+            KABINET SINERGI KARSA
+          </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore neque eius quae error harum! Veniam quidem vero quisquam quasi illo nostrum iure quae esse aliquam! Ratione laborum rem enim vitae.</p>
+         <div className="flex gap-4 mt-10">
+                <img
+                  src="image.jpg" // Gunakan default jika avatar kosong
+                  alt="User Avatar"
+                  className="w-32 h-32 bg-black rounded-full"
+                />
+                  <img
+                  src="image.jpg" // Gunakan default jika avatar kosong
+                  alt="User Avatar"
+                  className="w-32 h-32 bg-black rounded-full"
+                />
+         </div>
+      </div>
+      
+    );
+  };
+  
+  export default About;
+  

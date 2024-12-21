@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1734750498357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1734750604962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import { Routes, Route } from \"react-router-dom\";\n \n-import LandingPage from \"./layout/LandingPageLay\";\n+import Navbar from \"./pages/Navbar\";\n \n export default function App() {\n   return (\n     <Routes>\n-      <Route element={<LandingPage />}>\n+      <Route path=\"/\" element={<Navbar />}>\n     \n       </Route>\n     </Routes>\n   );\n"
+                },
+                {
+                    "date": 1734753338871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import { Routes, Route } from \"react-router-dom\";\n+import Slider from \"./pages/Content\";\n+import LandingPage from \"./layout/LandingPageLay\";\n \n-import Navbar from \"./pages/Navbar\";\n-\n export default function App() {\n   return (\n     <Routes>\n-      <Route path=\"/\" element={<Navbar />}>\n-    \n+      <Route element={<LandingPage />}>\n+         <Route path=\"/\" element={<Slider   />}/>\n       </Route>\n     </Routes>\n   );\n }\n"
+                },
+                {
+                    "date": 1734758534357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { Routes, Route } from \"react-router-dom\";\n+import Slider from \"./pages/Content\";\n+import LandingPage from \"./layout/LandingPageLay\";\n+import Card from \"./pages/Members\";\n+\n+export default function App() {\n+  return (\n+    <Routes>\n+      <Route element={<LandingPage />}>\n+         <Route path=\"/\" element={<Slider   />}/>\n+         <Route path=\"/\" element={<Card   />}/>\n+      </Route>\n+    </Routes>\n+  );\n+}\n+\n"
+                }
+            ],
+            "date": 1734750498357,
+            "name": "Commit-0",
+            "content": "import { Routes, Route } from \"react-router-dom\";\n\nimport LandingPage from \"./layout/LandingPageLay\";\n\nexport default function App() {\n  return (\n    <Routes>\n      <Route element={<LandingPage />}>\n    \n      </Route>\n    </Routes>\n  );\n}\n\n"
+        }
+    ]
+}

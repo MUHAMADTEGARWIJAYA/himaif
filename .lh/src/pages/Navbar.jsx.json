@@ -1,0 +1,342 @@
+{
+    "sourceFile": "src/pages/Navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 81,
+            "patches": [
+                {
+                    "date": 1734750457146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1734750785512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734750805146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-10 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n@@ -35,9 +35,9 @@\n           <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n-        <div className=\"flex items-center relative space-x-4\">\r\n+        <div className=\"flex items-center justify-center relative space-x-4\">\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n"
+                },
+                {
+                    "date": 1734750823415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-10 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-96 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734750851077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-96 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-reverse text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734750860226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-reverse text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-3.5 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734750869438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-3.5 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent space-x-96 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734750888349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n           <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n-        <div className=\"flex items-center justify-center relative space-x-4\">\r\n+        <div className=\"flex items-center justify-center relative space-x-20\">\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n"
+                },
+                {
+                    "date": 1734750944201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent space-x-96 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n@@ -35,9 +35,9 @@\n           <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n-        <div className=\"flex items-center justify-center relative space-x-20\">\r\n+        <div className=\"flex items-center relative space-x-4\">\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n"
+                },
+                {
+                    "date": 1734750957885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n           <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n-        <div className=\"flex items-center relative space-x-4\">\r\n+        <div className=\"flex items-center relative space-x-10\">\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n"
+                },
+                {
+                    "date": 1734750989949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white  transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734751079491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white  transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-[#439194]  transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734751106378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-[#439194]  transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-[#593b9a]  transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734751124382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-[#593b9a]  transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white  transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734751173573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white  transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734764515316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex items-center\">\r\n-          <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n+          <span className=\"text-lg font-bold text-black\">HIMA INFORMATIKA</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-10\">\r\n"
+                },
+                {
+                    "date": 1734764769814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"relative\">\r\n+    <div className=\" absolute\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764784074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\" absolute\">\r\n+    <div className=\"\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764806901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"\">\r\n+    <div className=\"fixed\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764822780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"fixed\">\r\n+    <div className=\"static\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764866395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"static\">\r\n+    <div className=\"fixed z-99\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764883206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"fixed z-99\">\r\n+    <div className=\"fixed z-50\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764905412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \r\n   return (\r\n     <div className=\"fixed z-50\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-white justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734764924516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,11 +23,11 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"fixed z-50\">\r\n+    <div className=\"relative\">\r\n       <div\r\n-        className={`flex items-center p-4 bg-white justify-between space-x-5 text-white transition-transform duration-300 ${\r\n+        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n"
+                },
+                {
+                    "date": 1734764930773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\"relative\">\r\n+    <div className=\" absolute\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734764936944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     };\r\n   }, []);\r\n \r\n   return (\r\n-    <div className=\" absolute\">\r\n+    <div className=\"relative\">\r\n       <div\r\n         className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white transition-transform duration-300 ${\r\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n"
+                },
+                {
+                    "date": 1734765313521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex items-center\">\r\n-          <span className=\"text-lg font-bold text-black\">HIMA INFORMATIKA</span>\r\n+          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-10\">\r\n"
+                },
+                {
+                    "date": 1734765346629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,22 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex items-center\">\r\n+        <div className=\"flex items-center\">\r\n+            <img\r\n+              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+              alt=\"User Avatar\"\r\n+              className=\"w-8 h-8 rounded-full\"\r\n+            />\r\n+          </div>\r\n+          <div className=\"flex items-center\">\r\n+            <img\r\n+              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+              alt=\"User Avatar\"\r\n+              className=\"w-8 h-8 rounded-full\"\r\n+            />\r\n+          </div>\r\n           <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n@@ -43,15 +57,9 @@\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n           </button>\r\n           {/* Avatar */}\r\n-          <div className=\"flex items-center\">\r\n-            <img\r\n-              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-              alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 rounded-full\"\r\n-            />\r\n-          </div>\r\n+         \r\n         </div>\r\n       </div>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1734765364647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n           </div>\r\n-          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+          <span className=\"text-lg font-semibold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-10\">\r\n"
+                },
+                {
+                    "date": 1734765380883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-10\">\r\n-          <button className=\"text-gray-300 hover:text-white\">\r\n+          <button className=\"text-gray-600 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-300 hover:text-white\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734765390971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,13 +49,13 @@\n           <span className=\"text-lg font-semibold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n-        <div className=\"flex items-center relative space-x-10\">\r\n+        <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-white\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n-          <button className=\"text-gray-300 hover:text-white\">\r\n+          <button className=\"text-gray-600 hover:text-white\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n           </button>\r\n           {/* Avatar */}\r\n          \r\n"
+                },
+                {
+                    "date": 1734765414434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n-          <button className=\"text-gray-600 hover:text-white\">\r\n+          <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n           <button className=\"text-gray-600 hover:text-white\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734765424649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n-          <button className=\"text-gray-600 hover:text-white\">\r\n+          <button className=\"text-gray-600 hover:text-gry-800\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n           </button>\r\n           {/* Avatar */}\r\n          \r\n"
+                },
+                {
+                    "date": 1734765432283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n           </button>\r\n-          <button className=\"text-gray-600 hover:text-gry-800\">\r\n+          <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <MdOutlineEmail className=\"w-6 h-6\" />\r\n           </button>\r\n           {/* Avatar */}\r\n          \r\n"
+                },
+                {
+                    "date": 1734765441271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n           </div>\r\n-          <span className=\"text-lg font-semibold text-black\">HIMA IF</span>\r\n+          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n"
+                },
+                {
+                    "date": 1734765468230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n+        <div className=\"flex flex-col items-center\">\r\n         <div className=\"flex items-center\">\r\n-        <div className=\"flex items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765511630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,22 +31,22 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex flex-col items-center\">\r\n-        <div className=\"flex items-center\">\r\n+       \r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n-          </div>\r\n-          <div className=\"flex items-center\">\r\n+         \r\n+        \r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n-          </div>\r\n+        \r\n           <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n"
+                },
+                {
+                    "date": 1734765524555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,22 +31,18 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex flex-col items-center\">\r\n-       \r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n-         \r\n-        \r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n             />\r\n-        \r\n           <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n"
+                },
+                {
+                    "date": 1734765531161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-col items-center\">\r\n+        <div className=\"flex flex-col-reverse items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765539310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-col-reverse items-center\">\r\n+        <div className=\"flex flex-wrap items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765547998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-wrap items-center\">\r\n+        <div className=\"flex flex-shrink items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765553270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-shrink items-center\">\r\n+        <div className=\"flex flex-col items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765560620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-col items-center\">\r\n+        <div className=\"grid items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765565904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid items-center\">\r\n+        <div className=\"grid grid-flow-col items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765590297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,13 +30,13 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-flow-col items-center\">\r\n+        <div className=\"grid grid-cols-2 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 rounded-full\"\r\n+              className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n"
+                },
+                {
+                    "date": 1734765602622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 rounded-full\"\r\n+              className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n           <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n"
+                },
+                {
+                    "date": 1734765607854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center\">\r\n+        <div className=\"grid grid-cols-1 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765621259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-1 items-center\">\r\n+        <div className=\"grid grid-cols-subgrid items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765626819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-subgrid items-center\">\r\n+        <div className=\"grid grid-cols-2 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765633915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center\">\r\n+        <div className=\"grid grid-cols-2 ml-0 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765702240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,22 +30,23 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 ml-0 items-center\">\r\n-            <img\r\n-              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-              alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full\"\r\n-            />\r\n-            <img\r\n-              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-              alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full\"\r\n-            />\r\n-          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n-        </div>\r\n+        <div className=\"grid grid-cols-2 items-center\">\r\n+  <img\r\n+    src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+    alt=\"User Avatar\"\r\n+    className=\"w-8 h-8 bg-black rounded-full mr-4\" // Menambahkan margin kanan\r\n+  />\r\n+  <img\r\n+    src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+    alt=\"User Avatar\"\r\n+    className=\"w-8 h-8 bg-black rounded-full\"\r\n+  />\r\n+  <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+</div>\r\n \r\n+\r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734765750201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,22 +31,21 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"grid grid-cols-2 items-center\">\r\n-  <img\r\n-    src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-    alt=\"User Avatar\"\r\n-    className=\"w-8 h-8 bg-black rounded-full mr-4\" // Menambahkan margin kanan\r\n-  />\r\n-  <img\r\n-    src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-    alt=\"User Avatar\"\r\n-    className=\"w-8 h-8 bg-black rounded-full\"\r\n-  />\r\n-  <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n-</div>\r\n+            <img\r\n+              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+              alt=\"User Avatar\"\r\n+              className=\"w-8 h-8 bg-black rounded-full mr-4\"\r\n+            />\r\n+            <img\r\n+              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+              alt=\"User Avatar\"\r\n+              className=\"w-8 h-8 bg-black rounded-full\"\r\n+            />\r\n+          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+        </div>\r\n \r\n-\r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734765758429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n         <div className=\"grid grid-cols-2 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full mr-4\"\r\n+              className=\"w-8 h-8 bg-black rounded-full mr-0\"\r\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n"
+                },
+                {
+                    "date": 1734765827841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,13 +30,13 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center\">\r\n+        <div className=\"grid grid-cols-2 items-center gap-0\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full mr-0\"\r\n+              className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n"
+                },
+                {
+                    "date": 1734765838002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center gap-0\">\r\n+        <div className=\"grid grid-cols-2 items-center gap-5\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765852897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center gap-5\">\r\n+        <div className=\"grid grid-cols-2 items-center gap-y-px\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765862782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center gap-y-px\">\r\n+        <div className=\"grid grid-cols-2 items-center gap-y-7\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765872825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center gap-y-7\">\r\n+        <div className=\"grid grid-cols-2 items-center gap-1\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765925098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center gap-1\">\r\n+        <div className=\"grid grid-cols-2 items-center justify-items-start gap-0\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765948930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center justify-items-start gap-0\">\r\n+        <div className=\"grid grid-cols-2 items-center justify-self-start gap-0\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765957159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center justify-self-start gap-0\">\r\n+        <div className=\"grid grid-cols-2 items-center justify-evenly gap-0\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765965482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center justify-evenly gap-0\">\r\n+        <div className=\"grid grid-cols-2 items-center justify-end gap-0\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765974652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center justify-end gap-0\">\r\n+        <div className=\"grid grid-cols-1 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765986125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-1 items-center\">\r\n+        <div className=\"grid grid-cols-2 items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734765995709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid grid-cols-2 items-center\">\r\n+        <div className=\"grid items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734766008337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"grid items-center\">\r\n+        <div className=\"flex-col items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734766014621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex-col items-center\">\r\n+        <div className=\"flex-wrap items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734766020708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex-wrap items-center\">\r\n+        <div className=\"flex-wrap flex items-center\">\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n"
+                },
+                {
+                    "date": 1734766032986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,11 +41,11 @@\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n-          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+         \r\n         </div>\r\n-\r\n+        <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734766038265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,11 +41,11 @@\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n-         \r\n+          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n-        <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+\r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734766053012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n-          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+          <span className=\"text-lg font-bold text-black flex flex-col\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n"
+                },
+                {
+                    "date": 1734766062782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n               className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n-          <span className=\"text-lg font-bold text-black flex flex-col\">HIMA IF</span>\r\n+          <span className=\"text-lg font-bold text-black grid grid-cols-1\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n"
+                },
+                {
+                    "date": 1734766087591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,11 +39,11 @@\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full\"\r\n+              className=\"w-8 h-8 bg-black rounded-full grid grid-cols-1\"\r\n             />\r\n-          <span className=\"text-lg font-bold text-black grid grid-cols-1\">HIMA IF</span>\r\n+          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n"
+                },
+                {
+                    "date": 1734766093003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n             />\r\n             <img\r\n               src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n               alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full grid grid-cols-1\"\r\n+              className=\"w-8 h-8 bg-black rounded-full\"\r\n             />\r\n           <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n \r\n"
+                },
+                {
+                    "date": 1734766157317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,22 +30,25 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex-wrap flex items-center\">\r\n-            <img\r\n-              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-              alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full\"\r\n-            />\r\n-            <img\r\n-              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-              alt=\"User Avatar\"\r\n-              className=\"w-8 h-8 bg-black rounded-full\"\r\n-            />\r\n-          <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n-        </div>\r\n+        <div className=\"flex flex-col items-center space-y-2\">\r\n+  <div className=\"flex space-x-2\">\r\n+    <img\r\n+      src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+      alt=\"User Avatar\"\r\n+      className=\"w-8 h-8 bg-black rounded-full\"\r\n+    />\r\n+    <img\r\n+      src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n+      alt=\"User Avatar\"\r\n+      className=\"w-8 h-8 bg-black rounded-full\"\r\n+    />\r\n+  </div>\r\n+  <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+</div>\r\n \r\n+\r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n           <button className=\"text-gray-600 hover:text-gray-800\">\r\n             <FaHome className=\"w-6 h-6\" />\r\n"
+                },
+                {
+                    "date": 1734779685371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,22 +31,22 @@\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n         <div className=\"flex flex-col items-center space-y-2\">\r\n-  <div className=\"flex space-x-2\">\r\n-    <img\r\n-      src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-      alt=\"User Avatar\"\r\n-      className=\"w-8 h-8 bg-black rounded-full\"\r\n-    />\r\n-    <img\r\n-      src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n-      alt=\"User Avatar\"\r\n-      className=\"w-8 h-8 bg-black rounded-full\"\r\n-    />\r\n-  </div>\r\n-  <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n-</div>\r\n+          <div className=\"flex space-x-2\">\r\n+                <img\r\n+                  src=\"../assets/images/hima.png\" // Gunakan default jika avatar kosong\r\n+                  alt=\"User Avatar\"\r\n+                  className=\"w-8 h-8 bg-black rounded-full\"\r\n+                />\r\n+                <img\r\n+                  src=\"../assets/images/Usahid.png\" // Gunakan default jika avatar kosong\r\n+                  alt=\"User Avatar\"\r\n+                  className=\"w-8 h-8 bg-black rounded-full\"\r\n+                />\r\n+          </div>\r\n+                <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n+        </div>\r\n \r\n \r\n         {/* Bagian Kanan */}\r\n         <div className=\"flex items-center relative space-x-5\">\r\n"
+                },
+                {
+                    "date": 1734779761677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,14 +33,14 @@\n         {/* Bagian Kiri */}\r\n         <div className=\"flex flex-col items-center space-y-2\">\r\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n-                  src=\"../assets/images/hima.png\" // Gunakan default jika avatar kosong\r\n+                  src=\"/assets/images/hima.png\" // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n                   className=\"w-8 h-8 bg-black rounded-full\"\r\n                 />\r\n                 <img\r\n-                  src=\"../assets/images/Usahid.png\" // Gunakan default jika avatar kosong\r\n+                  src=\"/assets/images/Usahid.png\" // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n                   className=\"w-8 h-8 bg-black rounded-full\"\r\n                 />\r\n           </div>\r\n"
+                },
+                {
+                    "date": 1734779855055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import  { useState, useEffect } from \"react\";\r\n import { FaHome } from \"react-icons/fa\";\r\n import { MdOutlineEmail } from \"react-icons/md\";\r\n+import himaImg from '../assets/images/hima.png';\r\n+import usahidImg from '../assets/images/Usahid.png';\r\n \r\n const Navbar = () => {\r\n   const [isVisible, setIsVisible] = useState(true);\r\n     \r\n@@ -33,14 +35,14 @@\n         {/* Bagian Kiri */}\r\n         <div className=\"flex flex-col items-center space-y-2\">\r\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n-                  src=\"/assets/images/hima.png\" // Gunakan default jika avatar kosong\r\n+                  src={himaImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n                   className=\"w-8 h-8 bg-black rounded-full\"\r\n                 />\r\n                 <img\r\n-                  src=\"/assets/images/Usahid.png\" // Gunakan default jika avatar kosong\r\n+                  src={usahidImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n                   className=\"w-8 h-8 bg-black rounded-full\"\r\n                 />\r\n           </div>\r\n"
+                },
+                {
+                    "date": 1734779872800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,14 +37,14 @@\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n                   src={himaImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n-                  className=\"w-8 h-8 bg-black rounded-full\"\r\n+                  className=\"w-8 h-8  rounded-full\"\r\n                 />\r\n                 <img\r\n                   src={usahidImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n-                  className=\"w-8 h-8 bg-black rounded-full\"\r\n+                  className=\"w-8 h-8  rounded-full\"\r\n                 />\r\n           </div>\r\n                 <span className=\"text-lg font-bold text-black\">HIMA IF</span>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1734779884487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n                   src={himaImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n-                  className=\"w-8 h-8  rounded-full\"\r\n+                  className=\"w-9 h-8  rounded-full\"\r\n                 />\r\n                 <img\r\n                   src={usahidImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n"
+                },
+                {
+                    "date": 1734779939867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,14 +32,14 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-col items-center space-y-2\">\r\n+        <div className=\"flex flex-col items-center \">\r\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n                   src={himaImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n-                  className=\"w-9 h-8  rounded-full\"\r\n+                  className=\"w-9 h-9  rounded-full\"\r\n                 />\r\n                 <img\r\n                   src={usahidImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n"
+                },
+                {
+                    "date": 1734779949157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n           isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n         }`}\r\n       >\r\n         {/* Bagian Kiri */}\r\n-        <div className=\"flex flex-col items-center \">\r\n+        <div className=\"flex flex-col items-center\">\r\n           <div className=\"flex space-x-2\">\r\n                 <img\r\n                   src={himaImg} // Gunakan default jika avatar kosong\r\n                   alt=\"User Avatar\"\r\n"
+                }
+            ],
+            "date": 1734750457145,
+            "name": "Commit-0",
+            "content": "import  { useState, useEffect } from \"react\";\r\nimport { FaHome } from \"react-icons/fa\";\r\nimport { MdOutlineEmail } from \"react-icons/md\";\r\n\r\nconst Navbar = () => {\r\n  const [isVisible, setIsVisible] = useState(true);\r\n    \r\n  useEffect(() => {\r\n    const handleScroll = () => {\r\n      // Check scroll position\r\n      if (window.scrollY > 50) {\r\n        setIsVisible(false); // Hide when scrolled down\r\n      } else {\r\n        setIsVisible(true); // Show when at top\r\n      }\r\n    };\r\n\r\n    window.addEventListener(\"scroll\", handleScroll);\r\n\r\n    // Cleanup event listener on unmount\r\n    return () => {\r\n      window.removeEventListener(\"scroll\", handleScroll);\r\n    };\r\n  }, []);\r\n\r\n  return (\r\n    <div className=\"relative\">\r\n      <div\r\n        className={`flex items-center p-4 bg-transparent justify-between space-x-5 text-white shadow-md transition-transform duration-300 ${\r\n          isVisible ? \"translate-y-0\" : \"-translate-y-full\"\r\n        }`}\r\n      >\r\n        {/* Bagian Kiri */}\r\n        <div className=\"flex items-center\">\r\n          <span className=\"text-lg font-bold\">HIMA INFORMATIKA</span>\r\n        </div>\r\n\r\n        {/* Bagian Kanan */}\r\n        <div className=\"flex items-center relative space-x-4\">\r\n          <button className=\"text-gray-300 hover:text-white\">\r\n            <FaHome className=\"w-6 h-6\" />\r\n          </button>\r\n          <button className=\"text-gray-300 hover:text-white\">\r\n            <MdOutlineEmail className=\"w-6 h-6\" />\r\n          </button>\r\n          {/* Avatar */}\r\n          <div className=\"flex items-center\">\r\n            <img\r\n              src=\"image.jpg\" // Gunakan default jika avatar kosong\r\n              alt=\"User Avatar\"\r\n              className=\"w-8 h-8 rounded-full\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Navbar;\r\n"
+        }
+    ]
+}
