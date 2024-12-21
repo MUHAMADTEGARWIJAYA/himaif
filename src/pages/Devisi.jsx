@@ -1,60 +1,61 @@
-import bendahara from '../assets/images/bendahara.png';
+import bendahara from '../assets/images/bendahara (1).png';
 import humas from '../assets/images/humas.png';
-import inti from '../assets/images/inti.png';
-import sekretaris from '../assets/images/sekretaris.png';
-import mibat from '../assets/images/mibat.png';
+import picture from '../assets/images/picture (1).png'
+import sekretaris from '../assets/images/avatar (1).png';
+import mibat from '../assets/images/girl.png';
 import kominfo from '../assets/images/photography.png';
+
 
 const OurSolution = () => {
   const solutions = [
     {
       id: 1,
       title: "Inti",
-      description: "Solution description for Inti.",
-      imgSrc: inti,
+      description: "Bertanggung jawab secara internal maupun eksternal atas kinerja organisasi.",
+      imgSrc: picture,
       color: "bg-blue-300",
     },
     {
       id: 2,
       title: "Sekretaris",
-      description: "Solution description for Support.",
+      description: " Mengelola administrasi dan surat-menyurat organisasi.",
       imgSrc: sekretaris,
       color: "bg-green-300",
     },
     {
       id: 3,
       title: "Bendahara",
-      description: "Solution description for Growth.",
+      description: "Menyusun anggaran dan laporan keuangan secara berkala.",
       imgSrc: bendahara,
       color: "bg-red-300",
     },
     {
       id: 4,
       title: "Humas",
-      description: "Solution description for Innovation.",
+      description: "engelola hubungan eksternal dan internal organisasi.",
       imgSrc: humas,
       color: "bg-yellow-300",
     },
     {
       id: 5,
       title: "Minat dan Bakat",
-      description: "Solution description for Efficiency.",
+      description: "Mengelola kegiatan yang berkaitan dengan minat dan bakat mahasiswa.",
       imgSrc: mibat,
       color: "bg-purple-300",
     },
     {
       id: 6,
       title: "Kominfo",
-      description: "Solution description for Sustainability.",
+      description: "Mengelola dan mengadakan segala informasi keluar maupun masuk yang bersangkutan dengan organisasi.",
       imgSrc: kominfo,
       color: "bg-teal-300",
     },
   ];
 
   return (
-    <div className="mt-10">
+    <div className="mt-24">
       <div>
-        <h1 className="text-center font-semibold text-lg">Devisi kami</h1>
+        <h1 className="text-center font-semibold mb-8 text-xl">Devisi kami</h1>
       </div>
       {/* Solution Category */}
       <div className="flex flex-wrap justify-center items-center">

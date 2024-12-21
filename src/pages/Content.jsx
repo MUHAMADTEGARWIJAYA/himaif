@@ -1,24 +1,26 @@
 import { useState, useEffect } from "react";
-
+import satu from '../assets/images/2024.jpeg'
+import dua from '../assets/images/2023.jpg'
+import tiga from '../assets/images/2022.jpeg'
 const Slider = () => {
     const slides = [
       {
         id: 1,
-        image: "https://via.placeholder.com/1920x600/3498db/ffffff?text=HIMA+Informatika", // Ganti dengan gambar tema HIMA Informatika
+        image: satu, // Ganti dengan gambar tema HIMA Informatika
         title: "Inovasi untuk Masa Depan Teknologi",
         description:
           "Bergabunglah dengan HIMA Informatika, wadah untuk mahasiswa yang ingin berinovasi dan mengembangkan teknologi untuk masa depan. Dari pengembangan perangkat lunak hingga proyek-proyek teknologi terkini.",
       },
       {
         id: 2,
-        image: "https://via.placeholder.com/1920x600/2ecc71/ffffff?text=HIMA+Informatika", // Ganti dengan gambar tema HIMA Informatika
+        image: dua, // Ganti dengan gambar tema HIMA Informatika
         title: "Kolaborasi Antar Mahasiswa Informatika",
         description:
           "HIMA Informatika mempertemukan mahasiswa dengan berbagai latar belakang, membangun kolaborasi yang kuat untuk proyek-proyek teknologi dan kemajuan bersama.",
       },
       {
         id: 3,
-        image: "https://via.placeholder.com/1920x600/e74c3c/ffffff?text=HIMA+Informatika", // Ganti dengan gambar tema HIMA Informatika
+        image: tiga, // Ganti dengan gambar tema HIMA Informatika
         title: "Peluang Pengembangan Diri di Dunia Teknologi",
         description:
           "Ikuti kegiatan yang mendukung pengembangan diri Anda di bidang teknologi, mulai dari seminar, hackathon, hingga pengembangan aplikasi yang bermanfaat.",
