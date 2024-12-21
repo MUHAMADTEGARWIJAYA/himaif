@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import himaImg from "../assets/images/hima.png";
+import himaImg from "../../assets/images/hima.png";
 
 const About = () => {
   return (

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import bendahara from '../assets/images/bendahara (1).png';
-import humas from '../assets/images/humas.png';
-import picture from '../assets/images/picture (1).png';
-import sekretaris from '../assets/images/avatar (1).png';
-import mibat from '../assets/images/girl.png';
-import kominfo from '../assets/images/photography.png';
+import bendahara from '../../assets/images/bendahara (1).png';
+import humas from '../../assets/images/humas.png';
+import picture from '../../assets/images/picture (1).png';
+import sekretaris from '../../assets/images/avatar (1).png';
+import mibat from '../../assets/images/girl.png';
+import kominfo from '../../assets/images/photography.png';
 
 const OurSolution = () => {
   const solutions = [
@@ -71,7 +71,7 @@ const OurSolution = () => {
           >
             {/* Solution Card */}
             <div
-              className={`flex-none w-96 shadow-lg rounded-lg m-2 p-4 relative overflow-hidden transition-all duration-1000 hover:scale-110 ${solution.color}`}
+              className={`flex-none w-96 min-h-[250px] shadow-lg rounded-lg m-2 p-4 relative overflow-hidden transition-all duration-1000 hover:scale-110 ${solution.color}`}
             >
               {/* Before Pseudo Element */}
               <div className="absolute w-[170px] h-[400px] top-[-23px] right-[-56px] bg-blue-900/15 rounded-[35px] transform rotate-[42deg] z-[-1]" />

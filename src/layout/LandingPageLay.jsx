@@ -1,9 +1,9 @@
-import Navbar from '../pages/Navbar';
-import OurSolution from '../pages/Devisi';
-import App from "../pages/Members";
-import Slider from "../pages/Content";
-import WaveInput from '../pages/Message';
-
+import Navbar from '../components/Navbar';
+import OurSolution from '../pages/Landing/Devisi';
+import App from "../pages/Landing/Members";
+import Slider from "../pages/Landing/Content";
+import WaveInput from '../pages/Landing/Message';
+import Footer from '../components/Footer';
 const LandigPage = () => {
     return (
         <div className='bg-white'>
@@ -12,6 +12,9 @@ const LandigPage = () => {
              <App />
              <OurSolution />
              <WaveInput />
+
+             <Footer />
+             
          </div>
     );
 };

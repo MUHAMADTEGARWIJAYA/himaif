@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import satu from '../assets/images/2024.jpeg'
-import dua from '../assets/images/2023.jpg'
-import tiga from '../assets/images/2022.jpeg'
+import satu from '../../assets/images/2024.jpeg'
+import dua from '../../assets/images/2023.jpg'
+import tiga from '../../assets/images/2022.jpeg'
 const Slider = () => {
     const slides = [
       {
