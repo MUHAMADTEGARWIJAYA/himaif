@@ -1,10 +1,10 @@
+import { motion } from "framer-motion";
 import bendahara from '../assets/images/bendahara (1).png';
 import humas from '../assets/images/humas.png';
-import picture from '../assets/images/picture (1).png'
+import picture from '../assets/images/picture (1).png';
 import sekretaris from '../assets/images/avatar (1).png';
 import mibat from '../assets/images/girl.png';
 import kominfo from '../assets/images/photography.png';
-
 
 const OurSolution = () => {
   const solutions = [
@@ -18,7 +18,7 @@ const OurSolution = () => {
     {
       id: 2,
       title: "Sekretaris",
-      description: " Mengelola administrasi dan surat-menyurat organisasi.",
+      description: "Mengelola administrasi dan surat-menyurat organisasi.",
       imgSrc: sekretaris,
       color: "bg-green-300",
     },
@@ -32,7 +32,7 @@ const OurSolution = () => {
     {
       id: 4,
       title: "Humas",
-      description: "engelola hubungan eksternal dan internal organisasi.",
+      description: "Mengelola hubungan eksternal dan internal organisasi.",
       imgSrc: humas,
       color: "bg-yellow-300",
     },
@@ -55,12 +55,20 @@ const OurSolution = () => {
   return (
     <div className="mt-24">
       <div>
-        <h1 className="text-center font-semibold mb-8 text-xl">Devisi kami</h1>
+        <h1 className="text-center font-semibold mb-8 text-xl">Devisi Kami</h1>
       </div>
+
       {/* Solution Category */}
       <div className="flex flex-wrap justify-center items-center">
-        {solutions.map((solution) => (
-          <div key={solution.id} className="flex flex-col justify-center m-2">
+        {solutions.map((solution, index) => (
+          <motion.div
+            key={solution.id}
+            className="flex flex-col justify-center m-2"
+            initial={{ opacity: 0, y: 50 }} // Posisi awal
+            whileInView={{ opacity: 1, y: 0 }} // Posisi akhir saat terlihat
+            viewport={{ once: true }} // Animasi hanya terjadi sekali
+            transition={{ duration: 0.6, delay: index * 0.2 }} // Durasi dan delay berdasarkan indeks
+          >
             {/* Solution Card */}
             <div
               className={`flex-none w-96 shadow-lg rounded-lg m-2 p-4 relative overflow-hidden transition-all duration-1000 hover:scale-110 ${solution.color}`}
@@ -95,7 +103,7 @@ const OurSolution = () => {
               {/* Hover Color Bubble */}
               <div className="absolute bg-blue-500/15 w-[100rem] h-[100rem] left-[-18rem] top-[16rem] rounded-full transform rotate-[-36deg] transition-all duration-700 z-[-1]" />
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
