@@ -14,7 +14,7 @@ const MemberCard = ({ member, isLeader }) => (
         <img
             src={
                 member.image
-                    ? `http://localhost:3000/uploads/${member.image}`
+                    ? `https://server-hima.vercel.app/uploads/${member.image}`
                     : "/path/to/default-image.jpg"
             }
             alt={member.Nama}
