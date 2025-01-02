@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: aqua;
 }
 
 .logo {
@@ -40,4 +39,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+/* Di file CSS */
+@media (max-width: 768px) {
+  .remove-background {
+    background-image: none !important;
+  }
 }

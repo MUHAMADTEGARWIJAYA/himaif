@@ -53,7 +53,7 @@ const OurSolution = () => {
   ];
 
   return (
-    <div className="mt-24">
+    <div className="mt-40">
       <div>
         <h1 className="text-center font-semibold mb-8 text-xl">Devisi Kami</h1>
       </div>
@@ -71,7 +71,7 @@ const OurSolution = () => {
           >
             {/* Solution Card */}
             <div
-              className={`flex-none w-96 min-h-[250px] shadow-lg rounded-lg m-2 p-4 relative overflow-hidden transition-all duration-1000 hover:scale-110 ${solution.color}`}
+              className={`flex-none w-80 md:w-96 min-h-[250px] shadow-lg rounded-lg m-2 p-4 relative overflow-hidden transition-all duration-1000 hover:scale-110 ${solution.color}`}
             >
               {/* Before Pseudo Element */}
               <div className="absolute w-[170px] h-[400px] top-[-23px] right-[-56px] bg-blue-900/15 rounded-[35px] transform rotate-[42deg] z-[-1]" />
@@ -96,9 +96,9 @@ const OurSolution = () => {
               </div>
 
               {/* Button */}
-              <button className="bg-white text-blue-500 font-semibold text-lg py-2 px-4 rounded-md">
-                Learn More
-              </button>
+             <a href="/Devisi"> <button className="bg-white text-blue-500 font-semibold text-lg py-2 px-4 rounded-md">
+                Lihat Anggota?
+              </button></a>
 
               {/* Hover Color Bubble */}
               <div className="absolute bg-blue-500/15 w-[100rem] h-[100rem] left-[-18rem] top-[16rem] rounded-full transform rotate-[-36deg] transition-all duration-700 z-[-1]" />

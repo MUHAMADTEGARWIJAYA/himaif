@@ -1,24 +1,21 @@
-
 import { FaHome } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import himaImg from '../assets/images/hima.png';
+import himaImg from '../assets/images/hima.jpg';
 import usahidImg from '../assets/images/Usahid.png';
 
 const Navbar = () => {
-
-
   return (
-    <div className="relative">
+    <div className="">
       <div
-        className={`flex items-center p-4 bg-gray-300 justify-between space-x-5 text-white transition-transform duration-300 fixed top-0 left-0 w-full z-10`}
+        className={`flex items-center p-4 bg-gray-900 justify-between space-x-5 text-white transition-transform duration-300 top-0 left-0 w-full z-10`}
       >
         {/* Bagian Kiri */}
-        <div className="flex space-x-2 items-center">
+     <a href="/"><div className="flex space-x-2 items-center">
           <div className="flex space-x-2">
             <img
               src={himaImg}
               alt="User Avatar"
-              className="w-9 h-9 rounded-full"
+              className="w-7 h-7 rounded-full"
             />
             <img
               src={usahidImg}
@@ -26,15 +23,15 @@ const Navbar = () => {
               className="w-8 h-8 rounded-full"
             />
           </div>
-          <span className="text-lg font-bold text-black">HIMAIF</span>
-        </div>
+          <span className="text-lg font-bold text-white">HIMAIF</span>
+        </div> </a>
 
         {/* Bagian Kanan */}
         <div className="flex items-center relative space-x-5">
-          <button className="text-gray-600 hover:text-gray-800">
+          <button className="text-gray-200 hover:text-white">
             <FaHome className="w-6 h-6" />
           </button>
-          <button className="text-gray-600 hover:text-gray-800">
+          <button className="text-gray-200 hover:text-white">
             <MdOutlineEmail className="w-6 h-6" />
           </button>
         </div>

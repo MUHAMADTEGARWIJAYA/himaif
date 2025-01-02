@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-300 text-black py-4 mt-20">
+    <footer className="bg-gray-900 text-white py-4 mt-20">
       <div className="container mx-auto text-center">
         {/* Title with Motion */}
         <motion.div
